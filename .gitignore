@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+dungnt/ex_2/idea/
+dungnt/ex_2/.pytest_cache/
+dungnt/ex_2/__init__.py
+dungnt/ex_1/__init__.py
+dungnt/__init__.py

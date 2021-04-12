@@ -1,5 +1,5 @@
 import unittest
-from dungnt.ex_2 import ATMWithdraw
+from dungnt.ex_2.models import ATMWithdraw
 from datetime import datetime
 
 class test_withdraw_fee(unittest.TestCase):
