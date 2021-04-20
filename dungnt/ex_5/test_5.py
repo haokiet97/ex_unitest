@@ -1,5 +1,5 @@
 import unittest
-from ex_5.models import Pizza
+from .models import Pizza
 
 
 class TestPizzaInvoice(unittest.TestCase):

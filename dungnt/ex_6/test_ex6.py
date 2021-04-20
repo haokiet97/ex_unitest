@@ -1,5 +1,5 @@
 import unittest
-from ex_6.models import ParkingFee
+from .models import ParkingFee
 
 
 class TestParkingFee(unittest.TestCase):

@@ -7,9 +7,9 @@ class Pizza:
     def check_calculate_invoice(self):
         result = {'has_potato_chips': False, 'free_pizza': False, 'discount_20_per': False}
         if self.total_invoice > 1500:
-            result.has_potato_chips = True
+            result['has_potato_chips'] = True
         if not self.is_shipping:
-            result.free_pizza = True
+            result['free_pizza'] = True
         elif self.is_shipping and self.has_coupon:
-            result.discount_20_per = True
+            result['discount_20_per'] = True
         return result

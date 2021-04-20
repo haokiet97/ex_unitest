@@ -7,7 +7,6 @@ class ParkingFee:
     def calculate_free_time_parking(self):
         free_minutes = 0
         if self.watch_film:
-            self.total_money += self.total_money + 1 #cong them tien xem phim
             free_minutes += 180
         if self.total_money > 5000:
             free_minutes += 120
